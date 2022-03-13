@@ -1,0 +1,17 @@
+.helper {
+	width: 100%;
+	text-align: center;
+}
+
+.helper p {
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: coral;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	backdrop-filter: opacity(20%);
+	font-size: 15px;
+}

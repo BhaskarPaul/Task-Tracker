@@ -1,0 +1,6 @@
+<app-add-task-form (onFormSubmit)="addTask($event)"></app-add-task-form>
+<div class="helper">
+	<p>double click tasks to toggle reminders</p>
+</div>
+<app-task-item *ngFor="let task of tasks" [task]="task" (onTaskDelete)="deleteTask(task)"
+	(onToggleReminder)="toggleReminder(task)"></app-task-item>
